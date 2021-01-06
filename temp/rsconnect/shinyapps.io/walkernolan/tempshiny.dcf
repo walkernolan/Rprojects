@@ -1,0 +1,13 @@
+name: tempshiny
+title: tempshiny
+username:
+account: walkernolan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3448751
+bundleId: 4066005
+url: https://walkernolan.shinyapps.io/tempshiny/
+when: 1609968024.70474
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|Rplot.pdf|Temp.r
