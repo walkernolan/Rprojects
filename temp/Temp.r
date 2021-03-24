@@ -13,7 +13,7 @@ library(ggplot2)
 #   )
 
 
-download.file(url="https://erddap.sccoos.org/erddap/tabledap/autoss.csv?station%2Ctime%2Ctemperature%2Ctemperature_flagPrimary%2Ctemperature_flagSecondary%2Cconductivity%2Cconductivity_flagPrimary%2Cconductivity_flagSecondary%2Cpressure%2Cpressure_flagPrimary%2Cpressure_flagSecondary%2Cchlorophyll%2Cchlorophyll_flagPrimary%2Cchlorophyll_flagSecondary%2Csalinity%2Csalinity_flagPrimary%2Csalinity_flagSecondary%2Csigmat%2CdiagnosticVoltage%2CcurrentDraw%2Caux1%2Caux3%2Caux4%2Clatitude%2Clongitude%2Cdepth%2CO2thermistor%2CconvertedOxygen", destfile="~/test.csv")
+download.file(url="https://drive.google.com/file/d/1j9tAGZABsooceGiq6h9D3VBG9dlBFZqm/view?usp=sharing", destfile="~/test.csv")
 trend_data <- read.csv(file="~/test.csv")
 trend_data <- trend_data[-1,]
 df <- trend_data[,c("time", "station", "temperature")]
